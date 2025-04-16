@@ -96,6 +96,11 @@ h6 {
   font-family: var(--heading-font);
 }
 
+h3:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  transition: 0.2s;
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
